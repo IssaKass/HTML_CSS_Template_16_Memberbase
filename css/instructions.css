@@ -1,0 +1,31 @@
+.instructions {
+  background-color: var(--clr-lt-gray);
+}
+.instructions .section-title {
+  margin-bottom: var(--spacing-xl);
+}
+.instructions .instruction:not(:last-child) {
+  margin-bottom: var(--spacing-4xl);
+}
+.instructions .instruction .title {
+  font-weight: var(--fw-medium);
+  margin-bottom: var(--spacing-sm);
+}
+.instructions .instruction .desc {
+  color: var(--clr-dk-blue);
+}
+.instructions .instruction .desc:not(:last-child) {
+  margin-bottom: var(--spacing-sm);
+}
+.instructions .instruction img {
+  margin-top: var(--spacing-2xl);
+  border-radius: var(--rad-sm);
+  box-shadow: var(--shadow);
+}
+.instructions .instruction ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+.instructions .instruction ul li:not(:last-child) {
+  margin-bottom: var(--spacing-2xs);
+}

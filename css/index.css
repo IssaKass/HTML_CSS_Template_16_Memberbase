@@ -1,0 +1,32 @@
+.home .container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  gap: calc(var(--gap) * 2);
+  align-items: center;
+}
+.home .data {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .home .container {
+    flex-direction: row;
+  }
+  .home .data {
+    max-width: 35em;
+    text-align: left;
+  }
+}
+.home .data .desc {
+  font-size: var(--fs-lg);
+  margin-bottom: var(--spacing-lg);
+}
+.home .image {
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+.home .image img {
+  min-width: 12em;
+  max-width: 16em;
+}

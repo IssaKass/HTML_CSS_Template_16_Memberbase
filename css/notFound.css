@@ -1,0 +1,21 @@
+.not-found {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.not-found .wrapper {
+  color: white;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  gap: var(--gap);
+}
+.not-found img {
+  width: 8em;
+}
+.not-found .title {
+  margin-bottom: 0;
+}
+.not-found .desc {
+  max-width: 25em;
+}

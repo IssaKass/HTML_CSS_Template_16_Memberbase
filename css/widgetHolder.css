@@ -1,0 +1,33 @@
+main {
+  --space: 20vh;
+}
+.home {
+  height: var(--space);
+}
+.widget-holder {
+  background-color: var(--clr-lt-gray);
+}
+.widget-holder .widget {
+  margin-top: calc(var(--space) * -1);
+  background-color: white;
+  padding: var(--spacing-6xl) var(--spacing-4xl);
+  border-radius: var(--rad-md);
+  box-shadow: var(--shadow);
+}
+.widget-holder .widget .date {
+  font-weight: var(--fw-regular);
+  margin-bottom: var(--spacing-6xl);
+}
+.widget-holder .widget .desc {
+  color: var(--clr-dk-blue);
+}
+.widget-holder .widget .box {
+  margin-top: var(--spacing-6xl);
+}
+.widget-holder .widget .box .title {
+  margin-bottom: var(--spacing-md);
+  font-weight: var(--fw-medium);
+}
+.widget-holder .widget .box .desc:not(:last-child) {
+  margin-bottom: var(--spacing-md);
+}

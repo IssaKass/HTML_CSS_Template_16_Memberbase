@@ -1,0 +1,18 @@
+.protected-page {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  text-align: center;
+}
+.protected-page .title {
+  font-weight: var(--fw-medium);
+  margin-bottom: var(--spacing-md);
+}
+.protected-page form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  max-width: 25em;
+  margin: auto;
+}
