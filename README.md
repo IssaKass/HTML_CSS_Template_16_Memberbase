@@ -10,4 +10,4 @@ Responsive Dashboard
 
 <a href="https://issakass.github.io/HTML_CSS_Template_16_Memberbase/"><strong>➥ Live Demo</strong></a>
 
-![preview desktop img](preview.png)
+![preview img](preview.png)
