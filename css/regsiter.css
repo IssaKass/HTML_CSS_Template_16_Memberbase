@@ -1,0 +1,57 @@
+.register {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.register .logo {
+  display: flex;
+  justify-content: center;
+}
+.register .logo .logo-img {
+  transition: var(--timing) ease;
+}
+.register .logo .logo-img:hover {
+  opacity: 75%;
+}
+.register .container {
+  text-align: center;
+}
+.register .widget {
+  max-width: 380px;
+  background-color: white;
+  border-radius: var(--rad-md);
+  margin: var(--spacing-2xl) auto;
+  padding: var(--spacing-2xl);
+}
+.register .desc {
+  font-size: var(--fs-sm);
+}
+.register form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  margin-top: var(--spacing-2xl);
+}
+.register form + .desc {
+  margin-top: var(--spacing-2xl);
+}
+.register form .input {
+  border-color: var(--clr-border);
+}
+.register form div {
+  text-align: left;
+  color: var(--clr-rg-gray);
+  cursor: pointer;
+}
+.register form div label {
+  margin-left: 6px;
+  line-height: var(--line-height);
+  font-size: var(--fs-xs);
+}
+.register .link {
+  color: var(--clr-lt-blue);
+  transition: var(--timing) ease;
+}
+.register .link:hover {
+  color: var(--clr-lt-gray);
+}

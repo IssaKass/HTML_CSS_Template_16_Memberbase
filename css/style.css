@@ -189,14 +189,21 @@ main {
   min-height: 50vh;
 }
 .main-btn {
-  padding: var(--spacing-3xs) var(--spacing-md);
+  display: inline-block;
   border-radius: var(--rad-sm);
+  padding: var(--spacing-3xs) var(--spacing-md);
   text-transform: capitalize;
   font-size: var(--fs-md);
   border: none;
   outline: none;
   cursor: pointer;
   transition: var(--timing) ease;
+}
+.main-btn.small {
+  padding: var(--spacing-5xs) var(--spacing-md);
+}
+.main-btn.large {
+  padding: var(--spacing-xs) var(--spacing-md);
 }
 .main-btn.dark {
   background-color: var(--clr-dk-gray);

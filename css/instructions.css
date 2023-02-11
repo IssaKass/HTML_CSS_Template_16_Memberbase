@@ -4,6 +4,9 @@
 .instructions .section-title {
   margin-bottom: var(--spacing-xl);
 }
+.instructions a:hover {
+  color: var(--clr-dk-blue);
+}
 .instructions .instruction:not(:last-child) {
   margin-bottom: var(--spacing-4xl);
 }

@@ -1,0 +1,59 @@
+.contact .section-subtitle {
+  color: var(--clr-lt-blue);
+  font-weight: var(--fw-medium);
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-md);
+}
+.contact .section-title {
+  color: white;
+}
+.contact .section-desc {
+  color: var(--clr-lt-gray);
+  margin-bottom: var(--spacing-2xl);
+  font-size: var(--fs-lg);
+}
+.contact .section-subtitle,
+.contact .section-title,
+.contact .section-desc {
+  text-align: center;
+}
+.contact .widget {
+  max-width: 36em;
+  margin: auto;
+  background-color: white;
+  border-radius: var(--rad-md);
+  padding: var(--spacing-4xl) var(--spacing-2xl);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-3xl);
+}
+@media (min-width: 576px) {
+  .contact .widget {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact .widget .email-box,
+  .contact .widget .message-box {
+    grid-column: span 2;
+  }
+}
+.contact .main-btn {
+  place-self: flex-start;
+}
+.contact .widget .input-box label {
+  display: block;
+  margin-bottom: var(--spacing-2xs);
+  color: var(--clr-rg-blue);
+}
+.contact .widget .input-box .input {
+  border-color: var(--clr-border);
+  width: 100%;
+}
+.contact .widget .input-box .input:hover,
+.contact .widget .input-box .input:focus {
+  border-color: var(--clr-rg-blue);
+}
+.contact .widget .input-box textarea {
+  resize: vertical;
+  min-height: 6em;
+  max-height: 16em;
+}
